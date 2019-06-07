@@ -6,7 +6,7 @@
 ### Author: Jagdeep Singh
 
 ### Links and Resources
-* [submission PR]()
+* [submission PR](https://github.com/401-advanced-javascript-js/lab-19-file-writer/pull/1)
 
 ### Setup
 #### `.env` requirements
@@ -15,10 +15,8 @@
 
 
 #### Running the app
-* Set .env variables
-* start server/server.js
-* start logger/logger.js
-* start app/app.js [:filepath]
+* Set `.env` variables
+* Run `node start [:filename]` in root directory using terminal
 
   
 #### Tests
