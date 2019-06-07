@@ -17,9 +17,9 @@ readFile(filename)
   .then((buffer) => writeFile(filename, buffer) || buffer)
   .then( () => {
     // socket.emit(events.fileSave, `${filename} saved` );
-    QClient('files', events.fileSave, `${filename} saved!`);
+    QClient.publish('files', events.fileSave, `${filename} saved!`);
   })
   .catch(() => {
     // socket.emit(events.fileError, 'file error' );
-    QClient('files', events.fileError, `Error with file: ${filename}`);
+    QClient.publish('files', events.fileError, `Error with file: ${filename}`);
   });
