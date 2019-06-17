@@ -1,0 +1,22 @@
+{
+  "name": "lab-19-file-writer",
+  "version": "1.0.0",
+  "description": "Event Driven Development Lab",
+  "main": "app/app.js",
+  "scripts": {
+    "start": "node app/app.js",
+    "lint": "eslint **/*.js",
+    "jsdoc": "jsdoc -c docs/config/jsdoc.config.json"
+  },
+  "jest": {
+    "testEnvironment": "node"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@nmq/q": "^1.0.3",
+    "dotenv": "^8.0.0",
+    "eslint": "^5.16.0",
+    "jest": "^23.6.0"
+  }
+}
